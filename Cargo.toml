@@ -1,0 +1,9 @@
+[package]
+name = "hello_world" # the name of the package
+version = "0.1.0"    # the current version, obeying semver
+authors = ["Alice <a@example.com>", "Bob <b@example.com>"]
+edition = "2024"
+
+[dependencies]
+fast_html2md = "0.0.48"
+spider = "2"
