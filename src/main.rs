@@ -3,7 +3,6 @@ extern crate spider;
 use std::fs;
 use spider::website::Website;
 use spider::tokio;
-use spider::features::chrome_common::RequestInterceptConfiguration;
 
 fn is_spa(content: &str) -> bool {
     content.contains("<script") || content.contains("fetch") || content.contains("XMLHttpRequest")
